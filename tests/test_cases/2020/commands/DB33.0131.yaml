@@ -1,0 +1,49 @@
+command_id: DB33.0131
+test_cases:
+- response: 18DAF10104413155B4
+  expected_values:
+    CLR_DIST: 21940
+- response: |-
+    18DAF10104413155B6
+    18DAF10204413155B6
+    18DAF10604413155B6
+    18DAF10E04413155BB
+  expected_values:
+    CLR_DIST: 21947
+- response: 18DAF10204413155B3
+  expected_values:
+    CLR_DIST: 21939
+- response: |-
+    18DAF10204413155B3
+    18DAF10104413155B3
+    18DAF10604413155B3
+    18DAF10E04413155B8
+  expected_values:
+    CLR_DIST: 21944
+- response: |-
+    18DAF10204413155CB
+    18DAF10104413155CB
+    18DAF10604413155CB
+    18DAF10E04413155D0
+  expected_values:
+    CLR_DIST: 21968
+- response: 18DAF10E04413155B8
+  expected_values:
+    CLR_DIST: 21944
+- response: |-
+    18DAF10E04413155B8
+    18DAF10104413155B3
+    18DAF10204413155B3
+    18DAF10604413155B3
+  expected_values:
+    CLR_DIST: 21939
+- response: |-
+    18DAF10E04413155D2
+    18DAF10104413155CE
+    18DAF10204413155CE
+    18DAF10604413155CE
+  expected_values:
+    CLR_DIST: 21966
+- response: 18DAF10E04413155D4
+  expected_values:
+    CLR_DIST: 21972
