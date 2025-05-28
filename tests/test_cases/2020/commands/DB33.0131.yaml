@@ -10,6 +10,9 @@ test_cases:
     18DAF10E04413155BB
   expected_values:
     CLR_DIST: 21947
+- response: 18DAF10104413155EC
+  expected_values:
+    CLR_DIST: 21996
 - response: 18DAF10204413155B3
   expected_values:
     CLR_DIST: 21939
@@ -20,13 +23,6 @@ test_cases:
     18DAF10E04413155B8
   expected_values:
     CLR_DIST: 21944
-- response: |-
-    18DAF10204413155CB
-    18DAF10104413155CB
-    18DAF10604413155CB
-    18DAF10E04413155D0
-  expected_values:
-    CLR_DIST: 21968
 - response: 18DAF10E04413155B8
   expected_values:
     CLR_DIST: 21944
@@ -44,6 +40,10 @@ test_cases:
     18DAF10604413155CE
   expected_values:
     CLR_DIST: 21966
-- response: 18DAF10E04413155D4
+- response: |-
+    18DAF10E04413155EF
+    18DAF10104413155EA
+    18DAF10204413155EA
+    18DAF10604413155EA
   expected_values:
-    CLR_DIST: 21972
+    CLR_DIST: 21994
