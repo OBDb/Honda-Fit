@@ -1,77 +1,80 @@
 command_id: DB33.0131
 test_cases:
-- response: 18DAF10104413155B4
-  expected_values:
+- expected_values:
     CLR_DIST: 21940
-- response: |-
+  response: 18DAF10104413155B4
+- expected_values:
+    CLR_DIST: 21947
+  response: |-
     18DAF10104413155B6
     18DAF10204413155B6
     18DAF10604413155B6
     18DAF10E04413155BB
-  expected_values:
-    CLR_DIST: 21947
-- response: 18DAF10104413155EC
-  expected_values:
-    CLR_DIST: 21996
-- response: 18DAF101044131561D
-  expected_values:
+- expected_values:
     CLR_DIST: 22045
-- response: |-
-    18DAF101044131565B
-    18DAF102044131565B
-    18DAF106044131565B
-    18DAF10E0441315660
-  expected_values:
-    CLR_DIST: 22112
-- response: |-
+  response: 18DAF101044131561D
+- expected_values:
+    CLR_DIST: 22133
+  response: |-
     18DAF1010441315670
     18DAF1020441315670
     18DAF1060441315670
     18DAF10E0441315675
-  expected_values:
-    CLR_DIST: 22133
-- response: |-
+- expected_values:
+    CLR_DIST: 22324
+  response: |-
+    18DAF101044131572F
+    18DAF102044131572F
+    18DAF106044131572F
+    18DAF10E0441315734
+- expected_values:
+    CLR_DIST: 21944
+  response: |-
     18DAF10204413155B3
     18DAF10104413155B3
     18DAF10604413155B3
     18DAF10E04413155B8
-  expected_values:
-    CLR_DIST: 21944
-- response: |-
+- expected_values:
+    CLR_DIST: 22526
+  response: |-
+    18DAF10204413157F9
+    18DAF10104413157F9
+    18DAF10604413157F9
+    18DAF10E04413157FE
+- expected_values:
+    CLR_DIST: 22661
+  response: |-
+    18DAF1020441315880
+    18DAF1010441315880
+    18DAF1060441315880
+    18DAF10E0441315885
+- expected_values:
+    CLR_DIST: 22048
+  response: |-
     18DAF106044131561B
     18DAF101044131561B
     18DAF102044131561B
     18DAF10E0441315620
-  expected_values:
-    CLR_DIST: 22048
-- response: 18DAF10E04413155B8
-  expected_values:
+- expected_values:
     CLR_DIST: 21944
-- response: |-
+  response: 18DAF10E04413155B8
+- expected_values:
+    CLR_DIST: 21939
+  response: |-
     18DAF10E04413155B8
     18DAF10104413155B3
     18DAF10204413155B3
     18DAF10604413155B3
-  expected_values:
-    CLR_DIST: 21939
-- response: |-
-    18DAF10E04413155EF
-    18DAF10104413155EA
-    18DAF10204413155EA
-    18DAF10604413155EA
-  expected_values:
-    CLR_DIST: 21994
-- response: |-
+- expected_values:
+    CLR_DIST: 22028
+  response: |-
     18DAF10E0441315611
     18DAF101044131560C
     18DAF102044131560C
     18DAF106044131560C
-  expected_values:
-    CLR_DIST: 22028
-- response: |-
-    18DAF10E0441315674
-    18DAF101044131566F
-    18DAF102044131566F
-    18DAF106044131566F
-  expected_values:
-    CLR_DIST: 22127
+- expected_values:
+    CLR_DIST: 22526
+  response: 18DAF10E04413157FE
+- expected_values:
+    CLR_DIST: 22661
+  response: 18DAF10E0441315885
