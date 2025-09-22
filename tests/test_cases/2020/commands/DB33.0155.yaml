@@ -1,5 +1,8 @@
 command_id: DB33.0155
 test_cases:
 - expected_values:
+    STSO2FT1: -1.5625
+  response: 18DAF10E0341557E
+- expected_values:
     STSO2FT1: 0
   response: 18DAF10E03415580
