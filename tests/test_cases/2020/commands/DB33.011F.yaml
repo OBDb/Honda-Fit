@@ -25,8 +25,8 @@ test_cases:
     18DAF10604411F02FE
     18DAF10E04411F02FE
 - expected_values:
-    RUNTM: 2097
-  response: 18DAF10104411F0831
+    RUNTM: 2065
+  response: 18DAF10104411F0811
 - expected_values:
     RUNTM: 100
   response: |-
@@ -42,18 +42,15 @@ test_cases:
     18DAF10604411F0100
     18DAF10E04411F00FF
 - expected_values:
-    RUNTM: 1026
-  response: 18DAF10204411F0402
+    RUNTM: 123
+  response: |-
+    18DAF10604411F007B
+    18DAF10104411F007B
+    18DAF10204411F007B
+    18DAF10E04411F007B
 - expected_values:
     RUNTM: 254
   response: 18DAF10604411F00FE
-- expected_values:
-    RUNTM: 1005
-  response: |-
-    18DAF10604411F03ED
-    18DAF10104411F03ED
-    18DAF10204411F03ED
-    18DAF10E04411F03ED
 - expected_values:
     RUNTM: 2005
   response: |-
@@ -71,3 +68,6 @@ test_cases:
 - expected_values:
     RUNTM: 148
   response: 18DAF10E04411F0094
+- expected_values:
+    RUNTM: 1792
+  response: 18DAF10E04411F0700
