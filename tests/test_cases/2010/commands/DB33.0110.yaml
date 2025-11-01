@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     MAF: 3.36
   response: 18DAF1100441100150
+- expected_values:
+    MAF: 4.13
+  response: 18DAF110044110019D
