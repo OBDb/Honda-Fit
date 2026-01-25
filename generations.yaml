@@ -14,8 +14,13 @@ generations:
 
   - name: "Third Generation"
     start_year: 2013
+    end_year: 2017
+    description: "The third-generation Fit featured more angular styling with a strong character line and a more prominent front end. While maintaining similar exterior dimensions to its predecessor, interior space improved further with class-leading rear legroom. The 'Magic Seat' system continued as a key feature, with refinements for even easier operation. Engine options varied by market but typically centered around efficient 1.3L to 1.5L four-cylinders, with hybrid variants available in some regions. The interior saw significant improvements in materials, design, and technology, featuring a touchscreen infotainment system on higher trims with smartphone connectivity. The platform employs ultra-high strength 780 MPa steel for 27 percent of the bodywork, with a shorter overall length by 4cm but a 3cm longer wheelbase and increased rear legroom by 12.2cm compared to the previous generation."
+
+  - name: "Third Generation (Facelift)"
+    start_year: 2017
     end_year: 2022
-    description: "The third-generation Fit featured more angular styling with a strong character line and a more prominent front end. While maintaining similar exterior dimensions to its predecessor, interior space improved further with class-leading rear legroom. The 'Magic Seat' system continued as a key feature, with refinements for even easier operation. Engine options varied by market but typically centered around efficient 1.3L to 1.5L four-cylinders, with hybrid variants available in some regions. The interior saw significant improvements in materials, design, and technology, featuring a touchscreen infotainment system on higher trims with smartphone connectivity. Safety technology advanced with the availability of Honda Sensing driver assistance features on later models. This generation maintained the Fit's position as a space-efficient, versatile subcompact while adding more refinement and technology to appeal to increasingly sophisticated consumers."
+    description: "The facelifted third-generation Fit/Jazz received significant updates including new bumpers, revised radio with Apple CarPlay integration, and LED headlights with daytime running lights incorporated into the headlight units. The Sport trim was added for the U.S. market, featuring underbody spoiler, exhaust finisher, and orange stitching on cloth seats. Honda Sensing driver assistance features became available on higher trims following the refresh. The hybrid variants continued to be offered with Honda's Sport Hybrid i-DCD system, combining a 1.5L Atkinson-cycle engine with dual-clutch transmission for improved efficiency. Production continued through 2022 across various global markets including Japan, Europe, Thailand, Indonesia, India, and the Americas."
 
   - name: "Fourth Generation"
     start_year: 2020
