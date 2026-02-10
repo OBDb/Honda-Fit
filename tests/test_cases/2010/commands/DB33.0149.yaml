@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     APP_D: 18.82353
   response: 18DAF11003414930
+- expected_values:
+    APP_D: 20
+  response: 18DAF11003414933
