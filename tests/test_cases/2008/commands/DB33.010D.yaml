@@ -1,0 +1,47 @@
+command_id: DB33.010D
+test_cases:
+- expected_values:
+    VSS: 28
+  response: |-
+    18DAF11103410D1C
+    18DAF11D03410D1C
+- expected_values:
+    VSS: 31
+  response: |-
+    18DAF11103410D1F
+    18DAF11D03410D1F
+- expected_values:
+    VSS: 34
+  response: |-
+    18DAF11103410D22
+    18DAF11D03410D22
+- expected_values:
+    VSS: 7
+  response: |-
+    18DAF11D03410D07
+    18DAF11103410D07
+- expected_values:
+    VSS: 34
+  response: |-
+    18DAF11D03410D22
+    18DAF11103410D22
+- expected_values:
+    VSS: 35
+  response: |-
+    18DAF11D03410D24
+    18DAF11103410D23
+- expected_values:
+    VSS: 44
+  response: |-
+    18DAF11D03410D2C
+    18DAF11103410D2C
+- expected_values:
+    VSS: 78
+  response: |-
+    18DAF11D03410D4E
+    18DAF11103410D4E
+- expected_values:
+    VSS: 82
+  response: |-
+    18DAF11D03410D52
+    18DAF11103410D52
