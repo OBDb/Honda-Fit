@@ -12,6 +12,11 @@ test_cases:
     BAT_SOC: 43.52941
   response: 18DAF10103415B6F
 - expected_values:
+    BAT_SOC: 94.11765
+  response: |-
+    18DAF10103415BF0
+    18DAF10E03415BF0
+- expected_values:
     BAT_SOC: 20.78431
   response: |-
     18DAF10E03415B35
@@ -20,12 +25,7 @@ test_cases:
     BAT_SOC: 30.19608
   response: 18DAF10E03415B4D
 - expected_values:
-    BAT_SOC: 60
+    BAT_SOC: 98.43137
   response: |-
-    18DAF10E03415B99
-    18DAF10103415B99
-- expected_values:
-    BAT_SOC: 61.96078
-  response: |-
-    18DAF10E03415B9E
-    18DAF10103415B9E
+    18DAF10E03415BFB
+    18DAF10103415BFB
