@@ -1,6 +1,11 @@
 command_id: DA0E.0E.222240
 test_cases:
 - expected_values:
+    HONDA_BAT_DIST: 7762
+  response: "18 DA F1 0E 10 27 62 22 40 FF C0 00 \n18 DA F1 0E 21 00 80 80 00 04 00
+    00 \n18 DA F1 0E 22 00 00 1E 52 01 C8 94 \n18 DA F1 0E 23 12 06 FF 05 2E 00 00
+    \n18 DA F1 0E 24 00 00 00 00 00 00 00 \n18 DA F1 0E 25 00 00 00 00 00 55 55 "
+- expected_values:
     HONDA_BAT_DIST: 7687
   response: |-
     18DAF10E1027622240FFC000
