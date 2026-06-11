@@ -4,5 +4,12 @@ test_cases:
     LOAD_PCT: 0
   response: 18DAF11003410400
 - expected_values:
+    LOAD_PCT: 53.33333
+  response: |-
+    18DAF11003410488
+
+
+    ELM327 v1.5
+- expected_values:
     LOAD_PCT: 100
   response: 18DAF110034104FF
