@@ -4,5 +4,5 @@ test_cases:
     IAT: -12
   response: 18DAF11003410F1C
 - expected_values:
-    IAT: 66
-  response: 18DAF11003410F6A
+    IAT: 69
+  response: 18DAF11003410F6D
