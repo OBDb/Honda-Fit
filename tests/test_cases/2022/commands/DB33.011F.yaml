@@ -42,18 +42,18 @@ test_cases:
     18DAF10204411F001A
     18DAF10E04411F001A
 - expected_values:
-    RUNTM: 273
-  response: |-
-    18DAF10604411F0112
-    18DAF10104411F0111
-    18DAF10204411F0112
-    18DAF10E04411F0111
-- expected_values:
     RUNTM: 743
   response: 18DAF10604411F02E7
 - expected_values:
     RUNTM: 773
   response: 18DAF10604411F0305
+- expected_values:
+    RUNTM: 3593
+  response: |-
+    18DAF10604411F0E09
+    18DAF10104411F0E09
+    18DAF10204411F0E09
+    18DAF10E04411F0E09
 - expected_values:
     RUNTM: 47
   response: |-
@@ -71,10 +71,3 @@ test_cases:
     18DAF10104411F06FB
     18DAF10204411F06FB
     18DAF10604411F06FB
-- expected_values:
-    RUNTM: 2281
-  response: |-
-    18DAF10E04411F08E9
-    18DAF10104411F08E9
-    18DAF10204411F08E9
-    18DAF10604411F08E9
