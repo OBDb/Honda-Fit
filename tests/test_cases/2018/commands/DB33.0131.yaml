@@ -3,3 +3,24 @@ test_cases:
 - expected_values:
     CLR_DIST: 2011
   response: 18DAF10E04413107DB
+- expected_values:
+    CLR_DIST: 2012
+  response: 18DAF10E04413107DC
+- expected_values:
+    CLR_DIST: 2013
+  response: 18DAF10E04413107DD
+- expected_values:
+    CLR_DIST: 2014
+  response: 18DAF10E04413107DE
+- expected_values:
+    CLR_DIST: 2015
+  response: 18DAF10E04413107DF
+- expected_values:
+    CLR_DIST: 2016
+  response: 18DAF10E04413107E0
+- expected_values:
+    CLR_DIST: 2017
+  response: 18DAF10E04413107E1
+- expected_values:
+    CLR_DIST: 2018
+  response: 18DAF10E04413107E2
