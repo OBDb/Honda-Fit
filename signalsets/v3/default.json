@@ -155,7 +155,7 @@
   "signals": [
     {"id": "FIT_VTEC_CTRL", "path": "ECU", "fmt": {"bix": 168, "len": 8, "max": 255, "unit": "scalar" }, "name": "Variable valve control"}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2615"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2021 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2615"}, "freq": 1, "filter": { "to": 2008, "from": 2013 }, "dbgfilter": { "to": 2018, "from": 2021 },
   "signals": [
     {"id": "FIT_ACTIVE_CYL", "path": "Engine", "fmt": {"bix": 400, "len": 8, "max": 6, "unit": "scalar" }, "name": "Active cylinders"}
   ]},
