@@ -1,0 +1,11 @@
+command_id: DA10.10.22E600
+test_cases:
+- expected_values:
+    FIT_RAW_10_E600: 55
+  response: 18DAF1100562E6003746
+- expected_values:
+    FIT_RAW_10_E600: 55
+  response: 18DAF1100562E60037F5
+- expected_values:
+    FIT_RAW_10_E600: 56
+  response: 18DAF1100562E600380E
