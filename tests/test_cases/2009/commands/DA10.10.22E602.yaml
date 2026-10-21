@@ -7,5 +7,5 @@ test_cases:
     FIT_RAW_10_E602: 11
   response: 18DAF1100662E6020B0000
 - expected_values:
-    FIT_RAW_10_E602: 59
-  response: 18DAF1100662E6023BA800
+    FIT_RAW_10_E602: 94
+  response: 18DAF1100662E6025E8000
