@@ -1,0 +1,7 @@
+command_id: DA10.10.22260F
+test_cases:
+- expected_values:
+    FIT_RAW_10_260F: 176
+  response: |-
+    18DAF110100B62260FB07000
+    18DAF1102100000000005555

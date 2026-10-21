@@ -1,0 +1,5 @@
+command_id: DA10.10.22E601
+test_cases:
+- expected_values:
+    FIT_RAW_10_E601: 0
+  response: 18DAF1100562E6010000
