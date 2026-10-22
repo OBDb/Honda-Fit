@@ -1,0 +1,5 @@
+command_id: DA10.10.22E401
+test_cases:
+- expected_values:
+    FIT_RAW_10_E401: 0
+  response: 18DAF1100562E4010098
