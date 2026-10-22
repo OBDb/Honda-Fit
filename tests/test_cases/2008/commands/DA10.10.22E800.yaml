@@ -1,0 +1,8 @@
+command_id: DA10.10.22E800
+test_cases:
+- expected_values:
+    FIT_RAW_10_E800: 0
+  response: |-
+    18DAF110100F62E800000000
+    18DAF1102100000000000000
+    18DAF1102200005555555555
