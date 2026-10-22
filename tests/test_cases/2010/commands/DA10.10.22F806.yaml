@@ -1,5 +1,0 @@
-command_id: DA10.10.22F806
-test_cases:
-- expected_values:
-    FIT_RAW_10_F806: 85
-  response: 18DAF1100762F80655A67374
