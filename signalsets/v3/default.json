@@ -77,64 +77,64 @@
   "signals": [
     {"id": "FIT_BAT_DIST", "path": "Battery", "fmt": {"bix": 80, "len": 32, "max": 250000, "unit": "kilometers" }, "name": "Distance traveled since last charge"}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "dbg": true, "cmd": {"22": "2300"}, "freq": 60,
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2300"}, "freq": 60, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_0E_2300", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 0E 22 2300", "description": "Captured to learn this reply's layout. Its listed contents: Distinction code of transmission.(CVT)."}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "dbg": true, "cmd": {"22": "2301"}, "freq": 60,
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2301"}, "freq": 60, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_0E_2301", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 0E 22 2301", "description": "Captured to learn this reply's layout. Its listed contents: APP Sensor A (V); APP Sensor B (V); APP Sensor (%); Output Shaft(Driven Pulley) Speed rpm; Input Shaft(Drive Pulley) Speed rpm; Electric Oil Pump(rpm); Electric Oil Pump Target Speed(rpm); Engine Speed; Atmospheric Pressure; BARO SENSOR (V); Manifold Absolute Pressure; MAP Sensor (V); Relative TP Sensor; Intake Air Temperature; IAT Sensor (V); CVTF Temperature; CVTF Temp Sensor (V); ...."}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "dbg": true, "cmd": {"22": "2311"}, "freq": 60,
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2311"}, "freq": 60, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_0E_2311", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 0E 22 2311", "description": "Captured to learn this reply's layout. Its listed contents: APP Sensor A (V); APP Sensor B (V); APP Sensor (%); Output Shaft(Driven Pulley) Speed rpm; Input Shaft(Drive Pulley) Speed rpm; Electric Oil Pump(rpm); Engine Speed; Atmospheric Pressure; BARO SENSOR (V); Manifold Absolute Pressure; MAP Sensor (V); Relative TP Sensor; Intake Air Temperature; IAT Sensor (V); CVTF Temperature; CVTF Temp Sensor (V); TP Sensor (1); TP Sensor (2); ...."}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "dbg": true, "cmd": {"22": "2320"}, "freq": 60,
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2320"}, "freq": 60, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_0E_2320", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 0E 22 2320", "description": "Captured to learn this reply's layout. Its listed contents: Accumulator Solenoid; Pressure Control Sol Actual; Driven Pulley Sol Actual; Drive Pulley Sol Actual; LCC Linear Sol Actual; Start Clutch Control Sol Actual; Pressure Control Sol Command; Driven Pulley Sol Command; Drive Pulley Sol Command; LCC Linear Sol Command; Start Clutch Control Sol Command; Inhibitor Sol; Shift Sol A; Shift Sol B; Shift Sol O/P; Shift Lock Sol."}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "dbg": true, "cmd": {"22": "2321"}, "freq": 60,
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2321"}, "freq": 60, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_0E_2321", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 0E 22 2321", "description": "Captured to learn this reply's layout. Its listed contents: Shift position indicator all segment; D Indicator; L Indicator; N Indicator; P Indicator; R Indicator; S Indicator; A/T D Switch; Forward Switch; A/T L Switch; A/T N Switch; A/T P Switch; A/T R Switch; Reverse Switch(ATPRVS); A/T S Switch; Brake Switch; ECON Mode Indicator; ECON Mode Switch; LED A; LED B; LED C; Manual Mode Indicator; Park Pin Switch; Downshift Switch; Downshift Switch (ST); ...."}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "dbg": true, "cmd": {"22": "2322"}, "freq": 60,
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2322"}, "freq": 60, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_0E_2322", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 0E 22 2322", "description": "Captured to learn this reply's layout. Its listed contents: Non Creep Control Status; Transmission Warming-Up Status; Fuel Cut Decel; Pulley Ratio Rate; Vehicle-Speed Rate; Start Clutch Slip Ratio; Inclination Sensor Output Voltage; Target Revolution Speed Following Status; Torque Converter Turbine Speed; ABS Wheel Speed (rpm); Secondary Shaft Speed 1 (rpm); Secondary Shaft Speed 2 (rpm); Driven Pulley Pressure; Driven Pulley Pressure Sensor(V); ...."}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "dbg": true, "cmd": {"22": "2323"}, "freq": 60,
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2323"}, "freq": 60, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_0E_2323", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 0E 22 2323", "description": "Captured to learn this reply's layout. Its listed contents: The zone no. of slip state; Temperature state for no-Idling; status of rough road; IDLE STOP INHIBIT(COMPSTOP); The number of protection control execution to 'HMMF' high temperature.; The cumulative number of the slips at the time of low temperature; The cumulative number of the slips at the time of normal temperature; The cumulative number of the slips at the time of accidental state; ...."}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "dbg": true, "cmd": {"22": "2330"}, "freq": 60,
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2330"}, "freq": 60, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_0E_2330", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 0E 22 2330", "description": "Captured to learn this reply's layout. Its listed contents: Accumulator Solenoid; Pressure Control Sol Actual; Driven Pulley Sol Actual; Drive Pulley Sol Actual; LCC Linear Sol Actual; Start Clutch Control Sol Actual; Pressure Control Sol Command; Driven Pulley Sol Command; Drive Pulley Sol Command; LCC Linear Sol Command; Start Clutch Control Sol Command; Inhibitor Sol; Shift Sol A; Shift Sol B; Shift Sol O/P; Shift Lock Sol."}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "dbg": true, "cmd": {"22": "2331"}, "freq": 60,
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2331"}, "freq": 60, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_0E_2331", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 0E 22 2331", "description": "Captured to learn this reply's layout. Its listed contents: Shift position indicator all segment; D Indicator; L Indicator; N Indicator; P Indicator; R Indicator; S Indicator; A/T D Switch; Forward Switch; A/T L Switch; A/T N Switch; A/T P Switch; A/T R Switch; Reverse Switch(ATPRVS); A/T S Switch; Brake Switch; ECON Mode Indicator; ECON Mode Switch; LED A; LED B; LED C; Manual Mode Indicator; Park Pin Switch; Downshift Switch; Downshift Switch (ST); ...."}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "dbg": true, "cmd": {"22": "2332"}, "freq": 60,
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2332"}, "freq": 60, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_0E_2332", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 0E 22 2332", "description": "Captured to learn this reply's layout. Its listed contents: Non Creep Control Status; Transmission Warming-Up Status; Fuel Cut Decel; Pulley Ratio Rate; Vehicle-Speed Rate; Start Clutch Slip Ratio; Inclination Sensor Output Voltage; Target Revolution Speed Following Status; Torque Converter Turbine Speed; ABS Wheel Speed (rpm); Secondary Shaft Speed 1 (rpm); Secondary Shaft Speed 2 (rpm); Driven Pulley Pressure; Driven Pulley Pressure Sensor(V); ...."}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "dbg": true, "cmd": {"22": "2333"}, "freq": 60,
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2333"}, "freq": 60, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_0E_2333", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 0E 22 2333", "description": "Captured to learn this reply's layout. Its listed contents: The zone no. of slip state; Temperature state for no-Idling; status of rough road; IDLE STOP INHIBIT(COMPSTOP); The number of protection control execution to 'HMMF' high temperature.; The cumulative number of the slips at the time of low temperature; The cumulative number of the slips at the time of normal temperature; The cumulative number of the slips at the time of accidental state; ...."}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "dbg": true, "cmd": {"22": "2340"}, "freq": 60,
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2340"}, "freq": 60, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_0E_2340", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 0E 22 2340", "description": "Captured to learn this reply's layout. Its listed contents: Status of Driving Inclination Sensor Learn; Cooling Control; Distance Traveled Since Battery Connected; Learn Condition; Fccomat; Start Clutch Status; Start Clutch Feedback Learn; Feedback Learn Error Code; State Of Feedback Learn; Start Clutch Status Diagnosis condition; Characteristic Status of Start Clutch; Sftcomat; Sft Error Code; Status of Initial Inclination Sensor Learn; ...."}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2610"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023, 2024], "from": 2026 },
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2610"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "FIT_GENERATOR_PCM", "path": "Engine", "fmt": {"bix": 184, "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Generator"},
     {"id": "FIT_AC_CLU_PCM",    "path": "Engine", "fmt": {"bix": 262, "len": 1, "max": 1,                           "unit": "offon"   }, "name": "A/C clutch"}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2611"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023, 2024], "from": 2026 },
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2611"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "FIT_AIRGAS_RAT_PCM", "path": "Engine", "fmt": {"bix": 64, "len": 16, "max": 29.4, "mul": 29.4, "div": 65535, "nullmax": 29.4, "unit": "scalar" }, "name": "Air/gas ratio"}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2612"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2021, 2023, 2024], "from": 2026 },
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2612"}, "freq": 0.25, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "FIT_CURRENT_GEAR_VAR_2", "path": "Transmission", "fmt": {"bix": 352, "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear, variant 2"},
     {"id": "FIT_CURRENT_GEAR_VAR_3", "path": "Transmission", "fmt": {"bix": 368, "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear, variant 3"}
@@ -143,25 +143,25 @@
   "signals": [
     {"id": "FIT_AC_P", "path": "Climate", "fmt": {"bix": 120, "len": 16, "max": 4000, "unit": "kilopascal" }, "name": "A/C pressure"}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2615"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021], "from": 2023 },
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2615"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2021], "from": 2023 },
   "signals": [
     {"id": "FIT_ACTIVE_CYL_PCM", "path": "Engine", "fmt": {"bix": 400, "len": 8, "max": 6, "unit": "scalar" }, "name": "Active cylinders"}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2660"}, "freq": 30, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2660"}, "freq": 30, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "FIT_ODO_PCM",   "path": "Trips",  "fmt": {"bix": 344, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer",                "suggestedMetric": "odometer"},
     {"id": "FIT_RUNTM_PCM", "path": "Clocks", "fmt": {"bix": 368, "len": 16, "max": 65535,    "unit": "seconds"    }, "name": "Time since engine start", "description": "How long it's been since the engine started."}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2661"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2661"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "FIT_FUELAIR_CAR_PCM", "path": "Engine", "fmt": {"bix": 64, "len": 16, "max": 29.4, "div": 2229.08163265, "unit": "scalar" }, "name": "Fuel/air commanded equivalence ratio"}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2662"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023, 2024], "from": 2026 },
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2662"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "FIT_KNOCK_CTRL_PCM", "path": "ECU",    "fmt": {"bix": 80,  "len": 8, "max": 2,   "mul": 2,   "div": 255, "unit": "scalar"  }, "name": "Knock control"},
     {"id": "FIT_VTC_DUTY_PCM",   "path": "Engine", "fmt": {"bix": 224, "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Variable valve timing duty"}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2663"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2663"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "FIT_MIS_CNT_1_VAR_3_PCM", "path": "Engine", "fmt": {"bix": 160, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #1, variant 3"},
     {"id": "FIT_MIS_CNT_2_VAR_3_PCM", "path": "Engine", "fmt": {"bix": 176, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #2, variant 3"},
@@ -181,7 +181,7 @@
     {"id": "FIT_EOT_VAR_3_PCM", "path": "Engine", "fmt": {"bix": 88,  "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature, variant 3"},
     {"id": "FIT_EOT_VAR_4_PCM", "path": "Engine", "fmt": {"bix": 112, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature, variant 4"}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "266C"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "266C"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "FIT_MIS_CNT_1_VAR_1_PCM", "path": "Engine", "fmt": {"bix": 48, "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count #1, variant 1"},
     {"id": "FIT_MIS_CNT_2_VAR_1_PCM", "path": "Engine", "fmt": {"bix": 56, "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count #2, variant 1"},
@@ -190,19 +190,19 @@
     {"id": "FIT_MIS_CNT_5_VAR_1_PCM", "path": "Engine", "fmt": {"bix": 80, "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count #5, variant 1"},
     {"id": "FIT_MIS_CNT_6_VAR_1_PCM", "path": "Engine", "fmt": {"bix": 88, "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count #6, variant 1"}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "266D"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023, 2024], "from": 2026 },
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "266D"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "FIT_AIR_FUEL_MIXTURE", "path": "Fuel", "fmt": {"bix": 72, "len": 8, "max": 127, "div": 2, "unit": "percent" }, "name": "Air-fuel mixture heater"}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "dbg": true, "cmd": {"22": "E50A"}, "freq": 60,
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "E50A"}, "freq": 60, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_0E_E50A", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 0E 22 E50A", "description": "Captured to learn this reply's layout. Its listed contents: Invalid Judgement; Refrence Search Judgement."}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "dbg": true, "cmd": {"22": "E50B"}, "freq": 60,
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "E50B"}, "freq": 60, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_0E_E50B", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 0E 22 E50B", "description": "Captured to learn this reply's layout. Its listed contents: 2nd Retry Judgement; 3rd Retry Judgement; 4th Retry Judgement; 5th Retry Judgement; 6th Retry Judgement; 7th Retry Judgement; Low Retry Judgement; Rvs Retry Judgement."}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "dbg": true, "cmd": {"22": "E50D"}, "freq": 60,
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "E50D"}, "freq": 60, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_0E_E50D", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 0E 22 E50D", "description": "Captured to learn this reply's layout. Its listed contents: 1ST_CORERROR."}
   ]},
@@ -906,19 +906,19 @@
   "signals": [
     {"id": "FIT_RAW_26_6010", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 26 22 6010", "description": "Captured to learn this reply's layout. Its listed contents: Low Air Pressure Warning Threshold Reprogramming."}
   ]},
-{ "hdr": "DA28", "rax": "28", "dbg": true, "cmd": {"22": "4000"}, "freq": 60,
+{ "hdr": "DA28", "rax": "28", "cmd": {"22": "4000"}, "freq": 60, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_28_4000", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 28 22 4000", "description": "Captured to learn this reply's layout. Its listed contents: Variant capability block (unconfirmed)."}
   ]},
-{ "hdr": "DA28", "rax": "28", "dbg": true, "cmd": {"22": "4001"}, "freq": 30,
+{ "hdr": "DA28", "rax": "28", "cmd": {"22": "4001"}, "freq": 30, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_28_4001", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 28 22 4001", "description": "Captured to learn this reply's layout. Its listed contents: Diagnostic state/support block (unconfirmed)."}
   ]},
-{ "hdr": "DA28", "rax": "28", "dbg": true, "cmd": {"22": "4002"}, "freq": 60,
+{ "hdr": "DA28", "rax": "28", "cmd": {"22": "4002"}, "freq": 60, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_28_4002", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 28 22 4002", "description": "Captured to learn this reply's layout. Its listed contents: Scaled parameter readback (unconfirmed)."}
   ]},
-{ "hdr": "DA28", "rax": "28", "dbg": true, "cmd": {"22": "4003"}, "freq": 60,
+{ "hdr": "DA28", "rax": "28", "cmd": {"22": "4003"}, "freq": 60, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_28_4003", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 28 22 4003", "description": "Captured to learn this reply's layout. Its listed contents: Diagnostic parameter/flag block (unconfirmed)."}
   ]},
@@ -930,79 +930,79 @@
   "signals": [
     {"id": "FIT_BRK_P", "path": "Electrical", "fmt": {"bix": 56, "len": 16, "max": 120, "add": -25, "unit": "bars" }, "name": "Brake pressure"}
   ]},
-{ "hdr": "DA28", "rax": "28", "dbg": true, "cmd": {"22": "4006"}, "freq": 60,
+{ "hdr": "DA28", "rax": "28", "cmd": {"22": "4006"}, "freq": 60, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_28_4006", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 28 22 4006", "description": "Captured to learn this reply's layout. Its listed contents: Diagnostic support/status block (unconfirmed)."}
   ]},
-{ "hdr": "DA28", "rax": "28", "dbg": true, "cmd": {"22": "4007"}, "freq": 30,
+{ "hdr": "DA28", "rax": "28", "cmd": {"22": "4007"}, "freq": 30, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_28_4007", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 28 22 4007", "description": "Captured to learn this reply's layout. Its listed contents: Clutch Stroke Sensor Value; CRUISE CANCEL CLUTCH SWITCH STATUS; NEUTRAL SWITCH STATUS; BACK-UP LIGHT SWITCH (Input from CAN) (unconfirmed)."}
   ]},
-{ "hdr": "DA28", "rax": "28", "dbg": true, "cmd": {"22": "4008"}, "freq": 30,
+{ "hdr": "DA28", "rax": "28", "cmd": {"22": "4008"}, "freq": 30, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_28_4008", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 28 22 4008", "description": "Captured to learn this reply's layout. Its listed contents: TPMS_INCH; INITIALIZED ODOMETER; TPMS_SPRTINCH (unconfirmed)."}
   ]},
-{ "hdr": "DA28", "rax": "28", "dbg": true, "cmd": {"22": "4030"}, "freq": 60,
+{ "hdr": "DA28", "rax": "28", "cmd": {"22": "4030"}, "freq": 60, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_28_4030", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 28 22 4030", "description": "Captured to learn this reply's layout. Its listed contents: Stored record 0: state view (unconfirmed)."}
   ]},
-{ "hdr": "DA28", "rax": "28", "dbg": true, "cmd": {"22": "4031"}, "freq": 60,
+{ "hdr": "DA28", "rax": "28", "cmd": {"22": "4031"}, "freq": 60, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_28_4031", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 28 22 4031", "description": "Captured to learn this reply's layout. Its listed contents: Stored record 0: data view (unconfirmed)."}
   ]},
-{ "hdr": "DA28", "rax": "28", "dbg": true, "cmd": {"22": "4032"}, "freq": 60,
+{ "hdr": "DA28", "rax": "28", "cmd": {"22": "4032"}, "freq": 60, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_28_4032", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 28 22 4032", "description": "Captured to learn this reply's layout. Its listed contents: Stored record 0: status view (unconfirmed)."}
   ]},
-{ "hdr": "DA28", "rax": "28", "dbg": true, "cmd": {"22": "4033"}, "freq": 60,
+{ "hdr": "DA28", "rax": "28", "cmd": {"22": "4033"}, "freq": 60, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_28_4033", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 28 22 4033", "description": "Captured to learn this reply's layout. Its listed contents: Stored record 1: state view (unconfirmed)."}
   ]},
-{ "hdr": "DA28", "rax": "28", "dbg": true, "cmd": {"22": "4034"}, "freq": 60,
+{ "hdr": "DA28", "rax": "28", "cmd": {"22": "4034"}, "freq": 60, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_28_4034", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 28 22 4034", "description": "Captured to learn this reply's layout. Its listed contents: Stored record 1: data view (unconfirmed)."}
   ]},
-{ "hdr": "DA28", "rax": "28", "dbg": true, "cmd": {"22": "4035"}, "freq": 60,
+{ "hdr": "DA28", "rax": "28", "cmd": {"22": "4035"}, "freq": 60, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_28_4035", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 28 22 4035", "description": "Captured to learn this reply's layout. Its listed contents: Stored record 1: status view (unconfirmed)."}
   ]},
-{ "hdr": "DA28", "rax": "28", "dbg": true, "cmd": {"22": "4036"}, "freq": 60,
+{ "hdr": "DA28", "rax": "28", "cmd": {"22": "4036"}, "freq": 60, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_28_4036", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 28 22 4036", "description": "Captured to learn this reply's layout. Its listed contents: FL wheel speed at warning 1; Low pressure warning 1 caused by; RL wheel speed at warning 1; Milage of Initialization 1; Milage of warning 1; FR wheel speed at warning 1; RR wheel speed at warning 1 (unconfirmed)."}
   ]},
-{ "hdr": "DA28", "rax": "28", "dbg": true, "cmd": {"22": "4037"}, "freq": 60,
+{ "hdr": "DA28", "rax": "28", "cmd": {"22": "4037"}, "freq": 60, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_28_4037", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 28 22 4037", "description": "Captured to learn this reply's layout. Its listed contents: FL wheel speed at warning 2; Low pressure warning  2 caused by; RL wheel speed at warning 2; Milage of Initialization 2; Milage of warning 2; FR wheel speed at warning 2; RR wheel speed at warning 2 (unconfirmed)."}
   ]},
-{ "hdr": "DA28", "rax": "28", "dbg": true, "cmd": {"22": "4038"}, "freq": 60,
+{ "hdr": "DA28", "rax": "28", "cmd": {"22": "4038"}, "freq": 60, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_28_4038", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 28 22 4038", "description": "Captured to learn this reply's layout. Its listed contents: FL wheel speed at warning F1; RL wheel speed at warning F1; Milage of Initialization F1; System Malfunction warning milage F1; Outside temperature at warning F1; FR wheel speed at warning F1; RR wheel speed at warning F1 (unconfirmed)."}
   ]},
-{ "hdr": "DA28", "rax": "28", "dbg": true, "cmd": {"22": "4039"}, "freq": 60,
+{ "hdr": "DA28", "rax": "28", "cmd": {"22": "4039"}, "freq": 60, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_28_4039", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 28 22 4039", "description": "Captured to learn this reply's layout. Its listed contents: FL wheel speed at warning F2; RL wheel speed at warning F2; Milage of Initialization F2; System Malfunction warning milage F2; Outside temperature at warning F2; FR wheel speed at warning F2; RR wheel speed at warning F2 (unconfirmed)."}
   ]},
-{ "hdr": "DA28", "rax": "28", "dbg": true, "cmd": {"22": "4070"}, "freq": 30,
+{ "hdr": "DA28", "rax": "28", "cmd": {"22": "4070"}, "freq": 30, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_28_4070", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 28 22 4070", "description": "Captured to learn this reply's layout. Its listed contents: Stored record 0: primary view (unconfirmed)."}
   ]},
-{ "hdr": "DA28", "rax": "28", "dbg": true, "cmd": {"22": "4071"}, "freq": 30,
+{ "hdr": "DA28", "rax": "28", "cmd": {"22": "4071"}, "freq": 30, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_28_4071", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 28 22 4071", "description": "Captured to learn this reply's layout. Its listed contents: Stored record 0: secondary view (unconfirmed)."}
   ]},
-{ "hdr": "DA28", "rax": "28", "dbg": true, "cmd": {"22": "4072"}, "freq": 30,
+{ "hdr": "DA28", "rax": "28", "cmd": {"22": "4072"}, "freq": 30, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_28_4072", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 28 22 4072", "description": "Captured to learn this reply's layout. Its listed contents: Stored record 1: primary view (unconfirmed)."}
   ]},
-{ "hdr": "DA28", "rax": "28", "dbg": true, "cmd": {"22": "4073"}, "freq": 30,
+{ "hdr": "DA28", "rax": "28", "cmd": {"22": "4073"}, "freq": 30, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_28_4073", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 28 22 4073", "description": "Captured to learn this reply's layout. Its listed contents: Stored record 1: secondary view (unconfirmed)."}
   ]},
-{ "hdr": "DA28", "rax": "28", "dbg": true, "cmd": {"22": "E600"}, "freq": 30,
+{ "hdr": "DA28", "rax": "28", "cmd": {"22": "E600"}, "freq": 30, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_28_E600", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 28 22 E600", "description": "Captured to learn this reply's layout. Its listed contents: Scaled runtime scalar (unconfirmed)."}
   ]},
-{ "hdr": "DA28", "rax": "28", "dbg": true, "cmd": {"22": "E602"}, "freq": 60,
+{ "hdr": "DA28", "rax": "28", "cmd": {"22": "E602"}, "freq": 60, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_28_E602", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 28 22 E602", "description": "Captured to learn this reply's layout. Its listed contents: Constant zero record (unconfirmed)."}
   ]},
@@ -1025,11 +1025,11 @@
   "signals": [
     {"id": "FIT_RAW_53_0006", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 53 22 0006", "description": "Captured to learn this reply's layout. Its listed contents: OPDS Initialization."}
   ]},
-{ "hdr": "DA53", "rax": "53", "dbg": true, "cmd": {"22": "8000"}, "freq": 30,
+{ "hdr": "DA53", "rax": "53", "cmd": {"22": "8000"}, "freq": 30, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_53_8000", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 53 22 8000", "description": "Captured to learn this reply's layout. Its listed contents: ECU Maker; Number of Front Passenger's Seat Weight Sensor."}
   ]},
-{ "hdr": "DA53", "rax": "53", "dbg": true, "cmd": {"22": "8001"}, "freq": 30,
+{ "hdr": "DA53", "rax": "53", "cmd": {"22": "8001"}, "freq": 30, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_53_8001", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 53 22 8001", "description": "Captured to learn this reply's layout. Its listed contents: Front Passenger's Airbag ON/OFF Switch Status; Left Front Seat Belt Buckle; Right Front Seat Belt Buckle; Passenger's Sitting Switch; Driver Seat Position Sensor; Passenger's Side Airbag OFF Indicator."}
   ]},
@@ -1037,27 +1037,27 @@
   "signals": [
     {"id": "FIT_RAW_53_8003", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 53 22 8003", "description": "Captured to learn this reply's layout. Its listed contents: Failure Control Unit Check."}
   ]},
-{ "hdr": "DA53", "rax": "53", "dbg": true, "cmd": {"22": "8005"}, "freq": 30,
+{ "hdr": "DA53", "rax": "53", "cmd": {"22": "8005"}, "freq": 30, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_53_8005", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 53 22 8005", "description": "Captured to learn this reply's layout. Its listed contents: Front Passenger's Weight."}
   ]},
-{ "hdr": "DA53", "rax": "53", "dbg": true, "cmd": {"22": "8010"}, "freq": 60,
+{ "hdr": "DA53", "rax": "53", "cmd": {"22": "8010"}, "freq": 60, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_53_8010", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 53 22 8010", "description": "Captured to learn this reply's layout. Its listed contents: Left Front Airbag, Left Front/Rear Seat Belt Tensioner and/or Left Knee Airbag Deployed; Left Knee Airbag Deployed; Right Front Airbag, Right Front/Rear Seat Belt Tensioner and/or Right Knee Airbag Deployed; Right Knee Airbag Deployed; Both or Only Side Curtain Airbag and Seat Belt Tensioner Deployed; ...."}
   ]},
-{ "hdr": "DA60", "rax": "60", "dbg": true, "cmd": {"22": "7010"}, "freq": 60,
+{ "hdr": "DA60", "rax": "60", "cmd": {"22": "7010"}, "freq": 60, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_60_7010", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 60 22 7010", "description": "Captured to learn this reply's layout. Its listed contents: CVTF exchange indication implemented; Distance display unit; SmartMaintenance EU information output enable; Transmission type; Initial distance display unit; SmartMaintenance US information output enable."}
   ]},
-{ "hdr": "DA60", "rax": "60", "dbg": true, "cmd": {"22": "7012"}, "freq": 60,
+{ "hdr": "DA60", "rax": "60", "cmd": {"22": "7012"}, "freq": 60, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_60_7012", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 60 22 7012", "description": "Captured to learn this reply's layout. Its listed contents: Parking Sensor equipment information."}
   ]},
-{ "hdr": "DA60", "rax": "60", "dbg": true, "cmd": {"22": "7020"}, "freq": 30,
+{ "hdr": "DA60", "rax": "60", "cmd": {"22": "7020"}, "freq": 30, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_60_7020", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 60 22 7020", "description": "Captured to learn this reply's layout. Its listed contents: ABS Indicator; ACC(Amber) Indicator; ACC(Green) Indicator; Active Damper system trouble warn on MID; Adaptive Front-lighting system Indicator; TPMS/DWS Warning Indicator; Passenger's Airbag OFF indicator; AUTO STOP trouble Indicator; AUTO STOP operation Indicator; IMA auto-stop indicator; AT Temp trouble warn on MID; BATT Indicator; BRAKE Press Indicator; Brake(Amber) Indicator; ...."}
   ]},
-{ "hdr": "DA60", "rax": "60", "dbg": true, "cmd": {"22": "7021"}, "freq": 30,
+{ "hdr": "DA60", "rax": "60", "cmd": {"22": "7021"}, "freq": 30, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_60_7021", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 60 22 7021", "description": "Captured to learn this reply's layout. Its listed contents: BRAKE HOLD active indicator; BRAKE HOLD standby indicator; Charging cable connect indicator; Drive READY status indicator; Driving battery failure indicator; E-Call System Failure Indicator; EV Driving Status Indicator; EV Mode Indicator; H2 Leak Warning Indicator; HV Charge Mode Indicator; HV Keep/Charge Mode Common Indicator; LPG Mode Indicator; Motor/Control unit hot indicator; ...."}
   ]},
@@ -1077,11 +1077,11 @@
   "signals": [
     {"id": "FIT_FLV", "path": "Fuel", "fmt": {"bix": 96, "len": 16, "max": 655, "div": 100, "unit": "liters" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "DA60", "rax": "60", "dbg": true, "cmd": {"22": "702A"}, "freq": 30,
+{ "hdr": "DA60", "rax": "60", "cmd": {"22": "702A"}, "freq": 30, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_60_702A", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 60 22 702A", "description": "Captured to learn this reply's layout. Its listed contents: Real fuel consumption to this fuel supply from the last fuel supply; Residual quantity of the fuel validated in the distance calculation which can be flown; RANGE upper indicated value; Fuel economy figures used for the distance calculation which can be flown; The actual fuel economy."}
   ]},
-{ "hdr": "DA60", "rax": "60", "dbg": true, "cmd": {"22": "702B"}, "freq": 30,
+{ "hdr": "DA60", "rax": "60", "cmd": {"22": "702B"}, "freq": 30, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_60_702B", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 60 22 702B", "description": "Captured to learn this reply's layout. Its listed contents: Instantaneous Fuel Consumption Control Mode; Instantaneous Fuel Consumption Display unit; Instantaneous Fuel Consumption Value."}
   ]},
@@ -1101,7 +1101,7 @@
   "signals": [
     {"id": "FIT_RAW_60_7061", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 60 22 7061", "description": "Captured to learn this reply's layout. Its listed contents: Real remaining distance 0; Real remaining distance 1; Real remaining distance 2; Real remaining distance 3; Real remaining distance 4; Real remaining distance 5; Real remaining distance 6; Real remaining distance 7; Real remaining distance 8; Real remaining distance 9; Real remaining distance A; Real remaining distance B."}
   ]},
-{ "hdr": "DA60", "rax": "60", "dbg": true, "cmd": {"22": "7068"}, "freq": 30,
+{ "hdr": "DA60", "rax": "60", "cmd": {"22": "7068"}, "freq": 30, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_60_7068", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 60 22 7068", "description": "Captured to learn this reply's layout. Its listed contents: item 1 function enable; Real remaining days 1; Real remaining distance 1; item 2 function enable; Real remaining days 2; Real remaining distance 2; item 3 function enable; Sub maintenance item 3 judge method; Real remaining days 3; Real remaining distance 3; item 4 function enable; Real remaining days 4; Real remaining distance 4; item 5 function enable; Real remaining days 5; ...."}
   ]},
@@ -1121,7 +1121,7 @@
   "signals": [
     {"id": "FIT_RAW_60_70A4", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 60 22 70A4", "description": "Captured to learn this reply's layout. Its listed contents: MAINTE REQ'D Distance when reset; Oil maintenance for kei turbo car distance when reset."}
   ]},
-{ "hdr": "DA60", "rax": "60", "dbg": true, "cmd": {"22": "70A8"}, "freq": 60,
+{ "hdr": "DA60", "rax": "60", "cmd": {"22": "70A8"}, "freq": 60, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_60_70A8", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 60 22 70A8", "description": "Captured to learn this reply's layout. Its listed contents: ATF exchange times; Oil exchange times; Main maintenance status; Sub maintenance 1 distance when reset; Sub maintenance 2 distance when reset; Sub maintenance 3 distance when reset; Sub maintenance item 3 reset status flag; Sub maintenance 4 distance when reset; Sub maintenance 5 distance when reset; Sub maintenance 6 distance when reset; Sub maintenance 7 distance when reset; ...."}
   ]},
@@ -1129,15 +1129,15 @@
   "signals": [
     {"id": "FIT_RAW_60_70A9", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 60 22 70A9", "description": "Captured to learn this reply's layout. Its listed contents: Item A time when reset; past time; Remaining days readout status; reference timing(day); reference timing(month); reference timing(year); Item 1 exchange times; Item 2 exchange times; Item 3 exchange times; Item 4 exchange times; Item 5 exchange times; Item 6 exchange times; Item 7 exchange times; Item 8 exchange times; Item 9 exchange times."}
   ]},
-{ "hdr": "DA60", "rax": "60", "dbg": true, "cmd": {"22": "70C0"}, "freq": 60,
+{ "hdr": "DA60", "rax": "60", "cmd": {"22": "70C0"}, "freq": 60, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_60_70C0", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 60 22 70C0", "description": "Captured to learn this reply's layout. Its listed contents: LIM button; CMBS OFF switch; cancel button; cruise control main button; res/accel button; decel/set button; DISTANCE switch; TPMS Initialization Switch; ECON switch; FCW OFF switch; Front Defroster switch; Auto Idle Stop System OFF Switch; INFORMATION switch; LKAS switch; NEXT switch; NORMAL switch; PREVIOUS switch; Seat Belt Switch; SEL/RESET switch on instrument panel; ...."}
   ]},
-{ "hdr": "DA60", "rax": "60", "dbg": true, "cmd": {"22": "70C1"}, "freq": 60,
+{ "hdr": "DA60", "rax": "60", "cmd": {"22": "70C1"}, "freq": 60, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_60_70C1", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 60 22 70C1", "description": "Captured to learn this reply's layout. Its listed contents: ADS  Switch; BRAKE HOLD switch; CTBA OFF Switch; EV Mode switch; FHEV Mode switch; HFL HANG-UP/BACK button; HILL CONTROL switch; IDS Switch Rotation to Left; IDS Switch Rotation to Right; ILLUMI VOL+ switch; ILLUMI VOL- switch; ILLUMI Cancel Switch; LDW OFF switch; Mode DOWN Switch; Mode Switch; Mode UP Switch; Parking Brake switch; HFL PICK-UP button; RTC OFF switch; SNOW Switch; ...."}
   ]},
-{ "hdr": "DA60", "rax": "60", "dbg": true, "cmd": {"22": "70C2"}, "freq": 30,
+{ "hdr": "DA60", "rax": "60", "cmd": {"22": "70C2"}, "freq": 30, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "FIT_RAW_60_70C2", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 60 22 70C2", "description": "Captured to learn this reply's layout. Its listed contents: Steering Commander Application Switch; Left side Audio Remote Switch (VOL. DOWN); Left side Audio Remote Switch Left CH(-); Right side Audio Remote Switch Right CH(+); Left side Audio Remote Switch Right CH(+); Left side Audio Remote Switch (VOL. UP); Steering Commander Mute Switch; Right side Audio Remote Switch (VOL. DOWN); Right side Audio Remote Switch Left CH(-); ...."}
   ]},
